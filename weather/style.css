@@ -1,0 +1,383 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(226, 226, 70);
+    background: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+/*Responsive Design*/
+@media screen and (min-width:220px){
+    .intro{
+        margin: 20px 0px 0px 0px;
+        padding: 8px;
+        font-size: 10px;
+        text-align: center;
+        color: rgb(224, 211, 211);
+        background-color: rgba(0,0,0,0.8);
+        border-radius: 50px;
+    }
+    .intro h1{
+        font-size: 9px;
+        display: inline-block;
+        padding: 0px 10px 0px 8px;
+        color: rgb(209, 233, 77);
+    }
+    .nav a{
+        font-size: 6px;
+        text-decoration: none;
+        color: rgb(224, 222, 222);
+        padding: 6px;
+    }
+    .nav a:hover{
+        background-color: rgb(209, 233, 77);
+        border-radius: 50px;
+        color: black;
+    }
+    .input{
+        text-align: center;
+        margin: 100px 0px;
+    }
+    input[type="text"]{
+        text-align: center;
+        height: 20px;
+        width: 60%;
+        background: rgb(184, 180, 180);
+        padding: 10px 5px;
+        font-weight: bold;
+        font-size: 12px;
+        border: 2px solid black;
+        border-radius: 50px 15px;
+    }
+    input[type="submit"]{
+        text-align: center;
+        height: 20px;
+        width: 15%;
+        background: rgb(163, 152, 152);
+        padding: 5px 4px;
+        font-weight: bold;
+        font-size: 8px;
+        line-height: 8px;
+        border: 2px solid black;
+        border-radius: 25px 25px;
+    }
+    .button:hover{
+        background: rgb(255, 255, 255);
+    }
+    .display{
+        /*background-color: rgba(0,0,0,0.5);*/
+        text-align: center;
+        font-weight: 1000;
+        margin: 5px 0px 0px 0px;
+        padding: 15px;
+        color: rgb(240, 237, 100);
+        text-shadow: 2px 2px rgb(0, 0, 0);
+        border-radius: 50px;
+        font-size: 15px;
+    }
+    .display p{
+        background-color: rgba(0,0,0,0.4);
+        color: rgb(209, 233, 77);
+        border-radius: 50px;
+    }
+}
+@media screen and (min-width:340px){
+    .intro{
+        margin: 20px 0px 0px 0px;
+        padding: 8px;
+        font-size: 10px;
+        text-align: center;
+        color: rgb(224, 211, 211);
+        background-color: rgba(0,0,0,0.7);
+        border-radius: 50px;
+    }
+    .intro h1{
+        font-size: 18px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: inline-block;
+        padding: 0px 12px 0px 8px;
+        color: rgb(209, 233, 77);
+    }
+    .nav a{
+        font-size: 11px;
+        text-decoration: none;
+        color: rgb(224, 222, 222);
+        padding: 6px;
+    }
+    .nav a:hover{
+        background-color: rgb(209, 233, 77);
+        border-radius: 50px;
+        color: black;
+    }
+    .input{
+        text-align: center;
+        margin: 100px 0px;
+    }
+    input[type="text"]{
+        text-align: center;
+        height: 30px;
+        width: 60%;
+        background: rgb(184, 180, 180);
+        padding: 10px 5px;
+        font-weight: bold;
+        font-size: 19px;
+        border: 2px solid black;
+        border-radius: 50px 15px;
+    }
+    input[type="submit"]{
+        text-align: center;
+        height: 30px;
+        width: 15%;
+        background: rgb(163, 152, 152);
+        padding: 5px 4px;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 8px;
+        border: 2px solid black;
+        border-radius: 25px 25px;
+    }
+    .button:hover{
+        background: rgb(255, 255, 255);
+    }
+    .display{
+        /*background-color: rgba(0,0,0,0.5);*/
+        text-align: center;
+        font-weight: 1000;
+        margin: 5px 0px 0px 0px;
+        padding: 15px;
+        color: rgb(240, 237, 100);
+        text-shadow:  rgb(0, 0, 0);
+        border-radius: 50px;
+        font-size: 15px;
+    }
+    .display p{
+        background-color: rgba(0,0,0,0.4);
+        color: rgb(209, 233, 77);
+        border-radius: 50px;
+    }
+}
+@media screen and (min-width:550px){
+    .intro{
+        margin: 20px 0px 0px 0px;
+        padding: 12px;
+        text-align: center;
+        color: rgb(224, 211, 211);
+        background-color: rgba(0,0,0,0.7);
+        border-radius: 50px;
+    }
+    .intro h1{
+        font-size: 26px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: inline-block;
+        padding: 0px 12px 0px 8px;
+        color: rgb(209, 233, 77);
+    }
+    .nav a{
+        font-size: 17px;
+        text-decoration: none;
+        color: rgb(224, 222, 222);
+        padding: 6px;
+    }
+    .nav a:hover{
+        background-color: rgb(209, 233, 77);
+        border-radius: 50px;
+        color: black;
+    }
+    .input{
+        text-align: center;
+        margin: 100px 0px;
+    }
+    input[type="text"]{
+        text-align: center;
+        height: 45px;
+        width: 60%;
+        background: rgb(184, 180, 180);
+        padding: 10px 5px;
+        font-weight: bold;
+        font-size: 25px;
+        border: 2px solid black;
+        border-radius: 50px 15px;
+    }
+    input[type="submit"]{
+        text-align: center;
+        height: 45px;
+        width: 15%;
+        background: rgb(163, 152, 152);
+        padding: 5px 4px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 8px;
+        border: 2px solid black;
+        border-radius: 25px 25px;
+    }
+    .button:hover{
+        background: rgb(255, 255, 255);
+    }
+    .display{
+        /*background-color: rgba(0,0,0,0.5);*/
+        text-align: center;
+        font-weight: 1000;
+        margin: 5px 0px 0px 0px;
+        padding: 15px;
+        color: rgb(240, 237, 100);
+        text-shadow:  rgb(0, 0, 0);
+        border-radius: 50px;
+        font-size: 35px;
+    }
+    .display p{
+        background-color: rgba(0,0,0,0.4);
+        color: rgb(209, 233, 77);
+        border-radius: 50px;
+    }
+}
+@media screen and (min-width:768px){
+    .intro{
+        margin: 20px 0px 0px 0px;
+        padding: 15px;
+        text-align: center;
+        color: rgb(224, 211, 211);
+        background-color: rgba(0,0,0,0.7);
+        border-radius: 50px;
+    }
+    .intro h1{
+        font-size: 33px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: inline-block;
+        padding: 0px 25px 0px 8px;
+        color: rgb(209, 233, 77);
+    }
+    .nav a{
+        font-size: 23px;
+        text-decoration: none;
+        color: rgb(224, 222, 222);
+        padding: 10px;
+    }
+    .nav a:hover{
+        background-color: rgb(209, 233, 77);
+        border-radius: 50px;
+        color: black;
+    }
+    .input{
+        text-align: center;
+        margin: 100px 0px;
+    }
+    input[type="text"]{
+        text-align: center;
+        height: 52px;
+        width: 60%;
+        background: rgb(184, 180, 180);
+        padding: 10px 5px;
+        font-weight: bold;
+        font-size: 30px;
+        border: 2px solid black;
+        border-radius: 50px 15px;
+    }
+    input[type="submit"]{
+        text-align: center;
+        height: 52px;
+        width: 15%;
+        background: rgb(163, 152, 152);
+        padding: 5px 4px;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 8px;
+        border: 2px solid black;
+        border-radius: 25px 25px;
+    }
+    .button:hover{
+        background: rgb(255, 255, 255);
+    }
+    .display{
+        /*background-color: rgba(0,0,0,0.5);*/
+        text-align: center;
+        font-weight: 1000;
+        margin: 5px 0px 0px 0px;
+        padding: 15px;
+        color: rgb(240, 237, 100);
+        text-shadow:  rgb(0, 0, 0);
+        border-radius: 50px;
+        font-size: 42px;
+    }
+    .display p{
+        background-color: rgba(0,0,0,0.4);
+        color: rgb(209, 233, 77);
+        border-radius: 50px;
+    }
+}
+@media and (min-width:1024px){
+    .intro{
+        margin: 20px 0px 0px 0px;
+        padding: 15px;
+        font-size: larger;
+        text-align: center;
+        color: rgb(224, 211, 211);
+        background-color: rgba(0,0,0,0.7);
+        border-radius: 50px;
+    }
+    .intro h1{
+        display: inline-block;
+        padding: 0px 70px 0px 30px;
+        color: rgb(209, 233, 77);
+    }
+    .nav a{
+        text-decoration: none;
+        color: rgb(224, 222, 222);
+        padding: 15px;
+    }
+    .nav a:hover{
+        background-color: rgb(209, 233, 77);
+        border-radius: 50px;
+        color: black;
+    }
+    .input{
+        text-align: center;
+        margin: 100px 0px;
+    }
+    input[type="text"]{
+        text-align: center;
+        height: 50px;
+        width: 60%;
+        background: rgb(184, 180, 180);
+        padding: 10px 5px;
+        font-weight: bold;
+        font-size: 25px;
+        border: 2px solid black;
+        border-radius: 50px 15px;
+    }
+    input[type="submit"]{
+        text-align: center;
+        height: 50px;
+        width: 15%;
+        background: rgb(163, 152, 152);
+        padding: 10px 5px;
+        font-weight: bold;
+        font-size: 15px;
+        border: 2px solid black;
+        border-radius: 25px 25px;
+    }
+    .button:hover{
+        background: rgb(255, 255, 255);
+    }
+    .display span,p{
+        /*background-color: rgba(0,0,0,0.5);*/
+        text-align: center;
+        font-weight: 1000;
+        margin: 20px 0px 0px 0px;
+        padding: 15px;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px rgb(0, 0, 0);
+        border-radius: 50px;
+        font-size: 30px;
+    }
+    .display p{
+        background-color: rgba(0,0,0,0.4);
+        color: rgb(209, 233, 77);
+        border-radius: 50px;
+    }
+    
+}
